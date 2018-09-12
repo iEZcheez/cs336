@@ -1,11 +1,9 @@
 // Encapsulation Person Class
 class Person {
-	
-	var Friends = [];
-	
     constructor(name, birth) {
         this.name = name;
         this.birthdate = birth;
+	    this.Friends = [];
     }
 	//mutator add new friend
     addFriend(name) {
@@ -13,9 +11,14 @@ class Person {
     }
 	//print greeting
 	greet() {
-		console.log("I am ", name);
+		console.log("I am ", this.name);
 	}
 }
+
+var Person1 = new Person("Kevin", 05/01/1998);
+console.log( Person1.greet() );
+
+
 
 // Inheritance + Polymorphism
 class Student extends Person {
@@ -39,4 +42,5 @@ function getAge(dateString) {
     }
     return age;
 }
+
 console.log('age: ' + getAge("1980/08/10"));
