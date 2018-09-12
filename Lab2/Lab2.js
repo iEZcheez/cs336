@@ -1,18 +1,9 @@
 // Encapsulation Person Class
 class Person {
-<<<<<<< HEAD:Lab2/Lab2.js
-	
-	var Friends = [];
-	
-    constructor(name, birth) {
-        this.name = name;
-        this.birthdate = birth;
-=======
     constructor(name, birth) {
         this.name = name;
         this.birthdate = birth;
 	    this.Friends = [];
->>>>>>> 14ad13931f562058ddf031c2b00e76bf40ce6b4e:Lab2.js
     }
 	//mutator add new friend
     addFriend(name) {
@@ -20,12 +11,6 @@ class Person {
     }
 	//print greeting
 	greet() {
-<<<<<<< HEAD:Lab2/Lab2.js
-		console.log("I am ", name);
-	}
-}
-
-=======
 		console.log("I am ", this.name);
 	}
 }
@@ -35,7 +20,6 @@ console.log( Person1.greet() );
 
 
 
->>>>>>> 14ad13931f562058ddf031c2b00e76bf40ce6b4e:Lab2.js
 // Inheritance + Polymorphism
 class Student extends Person {
     constructor(name, birth) {
@@ -58,8 +42,5 @@ function getAge(dateString) {
     }
     return age;
 }
-<<<<<<< HEAD:Lab2/Lab2.js
-=======
 
->>>>>>> 14ad13931f562058ddf031c2b00e76bf40ce6b4e:Lab2.js
 console.log('age: ' + getAge("1980/08/10"));
