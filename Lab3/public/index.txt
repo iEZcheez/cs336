@@ -1,0 +1,13 @@
+1.
+a. The purpose of Node.js is an open source server environment that allows JavaScript code to be run outside of a browser.\n 
+Express.js is used for Node. It is a web application for node.js (most of the time). It is a module framework for Node that will "listen" for connection requests from clients 
+
+
+b. The package.json file has "metadata" for the project. It has information for the npm to give identity to the project and handle the project\'s dependencies'))
+
+2.
+Explain the sense in which these files are “static”.
+a. The files are pre-loaded in root directory. The server does not have to generate the files.
+
+Indicate whether the server continues to serve up the hello-world message and explain why this is the case.
+b. The server does not display hello-world by default anymore because it now displays the index.html file. Express automatically serves the index.file.
