@@ -5,21 +5,29 @@
 let fs = require("fs");
 let filename = "test.json";
 
-function readFilePromise(filename){
+function readFilePromise(){
     //fulfill or reject (happy or unhappy)
-    return new Promise( function (fulfill, reject){
-        fs.readFile(filename, "utf8", function (err, res){
 
+    //Promise variable contains a function
+    return new Promise( function (fulfill, reject){
+        //fs.readFile(filename, "utf8", function (err, res){
+        var err;
+        var res;
+        if (1 == 1){
+            var error = "error";
+        }
             //if error, reject
-            if (err) reject(err);
+            if (error == "error") reject('BYE');
 
             //fulfill (happy)
-            else fulfill(res);
+            else fulfill('HI');
         });
-    });
 }
 
-readFilePromise(filename).then(
-    (res) => console.log("Message: " + JSON.parse(res).message),
-    (err) => console.log(err.toString())
-);
+readFilePromise()
+    .then(
+        (res) => {console.log("Message: " + res);}
+        )
+    .catch(
+        (res) => {console.log("Darn " + res);}
+        );

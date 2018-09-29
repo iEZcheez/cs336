@@ -1,0 +1,28 @@
+Cascading:
+stylesheets interact in a cascade, and how elements inherit style from their parents.
+
+DOM:
+P
+├─STRONG
+│ └─"C"
+├─"ascading"
+├─STRONG
+│ └─"S"
+├─"tyle"
+├─STRONG
+│ └─"S"
+└─"heets"
+
+selector:pseudo-class {
+  property: value;
+}
+
+<p class="key" id="principal">
+
+.key {
+  color: green;
+}
+
+#principal {
+  font-weight: bolder;
+}
