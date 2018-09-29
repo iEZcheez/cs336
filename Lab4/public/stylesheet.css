@@ -1,4 +1,6 @@
-/* page font */
+section {
+    margin-left: 10px;
+}
 body {
     font: 16px "Arial", cursive;
     /*background image*/
