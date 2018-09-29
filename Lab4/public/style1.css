@@ -4,7 +4,7 @@
 body {
     font: 16px "Comic Sans MS", cursive;
     /*background image*/
-    background: url("Blue-rule.png");
+    background: url("public/Blue-rule.png");
 }
 
 /* paragraphs */
@@ -13,7 +13,7 @@ p {
 }
 /*add yellow pin before all p's'*/
 p:before {
-    content: url("Yellow-pin.png");
+    content: url("public/Yellow-pin.png");
 }
 
 #first {

@@ -1,6 +1,10 @@
 /*** Style for doc3.html (Tables) ***/
 
+#demo-table tbody td {
+    border: 1px solid #7a7;
+}
 #demo-table {
+    border: 1px;
     font: 100% sans-serif;
     background-color: #efe;
     border-collapse: collapse;
@@ -9,12 +13,11 @@
 }
 
 #demo-table > caption {
-    bottom: 0px;
+    bottom: 0;
     text-align: right;
     font-weight: normal;
     font-size: 75%;
     border-top: .4em solid lightgreen;
-    /*challenge*/
     margin-top: 1em;
 }
 
