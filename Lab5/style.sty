@@ -1,0 +1,75 @@
+// --watch and --compress completed
+font-size = 14px
+
+body
+    font: 24px Helvetica
+    background: #999999
+#main
+    /*lab5*/
+    min-height: 300px
+    margin: 0px
+    padding: 0px
+    display: flex
+    flex-flow: row
+
+
+#main > article 
+    margin: 0px
+    padding: 5px
+    border: 1px solid black
+    border-radius: 0pt
+    background: #dddd88
+    flex: 3 1 60%
+    order: 2
+
+
+#main > nav 
+    margin: 0px
+    padding: 5px
+    border: 1px solid black
+    border-radius: 0pt
+    background: #ccccff
+    flex: 1 6 20%
+    order: 1
+    /*lab05*/
+    text-align: right
+
+
+#main > aside 
+    margin: 0px
+    padding: 5px
+    border: 1px solid black
+    background: #ccccff
+    flex: 1 6 20%
+    order: 3
+
+
+header, footer 
+    display: block
+    margin: 0px
+    padding: 5px
+    min-height: 100px
+    border: 1px solid black
+    border-radius: 0pt
+    background: #ffeebb
+
+
+// lab5
+header 
+    font-size: 150%
+
+
+footer 
+    font-size: 50%
+
+
+//Too narrow to support three columns
+// Mobile Mode
+@media all and (max-width: 640px) 
+    #main, #page 
+        flex-direction: column
+
+    #main > nav, #main > aside, header, footer 
+        min-height: 50px
+        max-height: 100px
+    
