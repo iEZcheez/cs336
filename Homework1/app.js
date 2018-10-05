@@ -18,17 +18,12 @@ var peopleArray = JSON.parse(`
 ]
 `);
 
-//testing in console
-var StartDate = new Date(peopleArray[0].startDate);
-var Today = new Date();
-console.log(Today.getYear());
-console.log(StartDate.getYear());
-
+//Retrieve all persons
 app.get('/people', (req, res) => {
     res.json(peopleArray);
 });
 
-///         PEOPLE ID
+//Retrive person with that id
 app.get('/person/:id', (req, res) => {
     var response = getPerson(req.params.id);
     if (response != "404") {
@@ -38,6 +33,7 @@ app.get('/person/:id', (req, res) => {
     }
 });
 
+//FUNCTION: Find id in array
 function getPerson(id) {
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == id) {
@@ -47,7 +43,7 @@ function getPerson(id) {
     return '404';
 }
 
-//     PERSON NAME
+//Display name based from id
 app.get('/person/:id/name', (req, res) => {
     var response = getName(req.params.id);
     if (response != "404") {
@@ -57,6 +53,7 @@ app.get('/person/:id/name', (req, res) => {
     }
 });
 
+//FUNCTION: Create full name
 function getName(id) {
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == id) {
@@ -66,7 +63,7 @@ function getName(id) {
     return '404';
 }
 
-//     PERSON YEAR
+//Retrieve years in work
 app.get('/person/:id/years', (req, res) => {
     console.log(req.params.years);
     var response = getYears(req.params.id, req.params.years);
@@ -78,13 +75,6 @@ app.get('/person/:id/years', (req, res) => {
 });
 
 function getYears(id) {
-    // var today = new Date();
-    // for (var i = 0; i < peopleArray.length; i++) {
-    //     if (peopleArray[i].id == id) {
-    //         var startDate = new Date(peopleArray[i].startDate)
-    //         var years = (Math.floor((today - startDate) / (1000*60*60*24*365)));
-    //         return years;
-    //     }
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == id) {
             var today = new Date();
