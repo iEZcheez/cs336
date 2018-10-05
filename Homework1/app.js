@@ -74,6 +74,7 @@ app.get('/person/:id/years', (req, res) => {
     }
 });
 
+//FUNCTION: Calculate years in work
 function getYears(id) {
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == id) {
