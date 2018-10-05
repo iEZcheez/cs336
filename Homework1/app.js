@@ -1,6 +1,3 @@
-// Gavin Martin
-// CS 336
-// Homework 1
 const express = require('express')
 const app = express()
 const port = 3000
