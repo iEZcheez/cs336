@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+//Index is unavailable
+app.get('/', (req, res) => res.redirect('/people'))
+
 //Hard-coded database
 var peopleArray = JSON.parse(`
 [
@@ -95,8 +98,6 @@ function getYears(id) {
 app.all("*", (req, res) => {
     res.sendStatus(404);
 })
-
-app.get('/', (req, res) => res.send('Please add index.html for main page'))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
