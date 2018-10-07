@@ -96,4 +96,8 @@ app.all("*", (req, res) => {
     res.sendStatus(404);
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.get('/', (req, res) => res.send('Please add index.html for main page'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
+
