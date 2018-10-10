@@ -1,0 +1,30 @@
+exercise 1
+1.
+Identify the request methods that you can and can’t test using the two tools listed above.
+If a method cannot be testing using a particular tool, explain why this is the case.
+List the Curl commands you used successfully.
+I used all of the types of requests and they have worked such as HEAD, PUT, POST, and the other ones.
+
+2.
+What is the most appropriate HTTP response code for pages that aren’t defined by an Express route?
+I used code 502, which gives "Service Unavailable". Although, code 404 could be an option as well.
+
+exercise 2
+1.
+What HTTP methods do forms support?
+
+2.
+How is the form data being passed back to the server and what syntactic form does it take?
+Is the data modified in any way?
+
+Notes:
+GET
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+HEAD
+The HEAD method asks for a response identical to that of a GET request, but without the response body.
+POST
+The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+DELETE
+The DELETE method deletes the specified resource.
