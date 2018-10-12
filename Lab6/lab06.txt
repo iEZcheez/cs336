@@ -12,10 +12,23 @@ I used code 502, which gives "Service Unavailable". Although, code 404 could be 
 exercise 2
 1.
 What HTTP methods do forms support?
+HTML forms (up to HTML version 4 and XHTML 1) only support GET and POST
 
 2.
 How is the form data being passed back to the server and what syntactic form does it take?
+The data is passed through HTTP(s) requests and responses.
+Here is an example of a form data being passed (in this case, POST):
+POST / HTTP/1.1
+Host: foo.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+say=Hi&to=Mom
+Whichever HTTP method you choose, the server receives a string that will be parsed in order
+to get the data as a list of key/value pairs.
+
 Is the data modified in any way?
+The data becomes parsed so that it can transfer through the HTTP request/response.
+
 
 Notes:
 GET
