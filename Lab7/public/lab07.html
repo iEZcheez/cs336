@@ -1,0 +1,47 @@
+<!--Kevin Tran-->
+<!--Lab7-->
+<!--jQuery and AJAX-->
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lab7</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <!--Code-->
+    <script>
+        //This code executes when the document is "ready to be worked on"
+        $( document ).ready( function() {
+            //clicking a link causes this function
+            $( "a" ).click( function (){
+                alert("welcome2");
+                //prevent hyperlink from changing pages
+                event.preventDefault()
+            });
+        });
+
+        // Button function
+        $( "#btn1" ).click( function() {
+            $("<em>", {html: "no data yet..."}).appendTo("body");
+        })
+
+        // example
+        $( "#target" ).click(function() {
+            alert( "Handler for .click() called." );
+        });
+
+        // Button
+        $( "button" ).button();
+    </script>
+
+    <!--DIV Widget-->
+    <div class="widget">
+        <h1>jQuery, jQuery-UI & AJAX</h1>
+        <button>Get Data</button>
+    </div>
+</body>
+</html>

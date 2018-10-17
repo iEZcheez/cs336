@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lab7</title>
+    <!--import jQuery CSS-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <!--import jQuery-->
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <!--import jQuery-UI-->
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+
+<!--DIV Widget-->
+<div class="widget">
+    <h1>jQuery, jQuery-UI & AJAX</h1>
+    <button>Get Data</button>
+</div>
+
+<script>
+    $( "button" ).button().click( function (){
+        $("<em>", {html: "no data yet..."}).appendTo("body");
+    });
+</script>
+
+</body>
+</html>

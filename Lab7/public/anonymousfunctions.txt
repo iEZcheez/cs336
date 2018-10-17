@@ -1,0 +1,12 @@
+To call a function with parameters, one must
+use anonymous functions.
+
+Wrong version:
+$.get( "myhtmlpage.html", myCallBack( param1, param2 ) );
+
+Correct version:
+$.get( "myhtmlpage.html", function() {
+
+myCallBack( param1, param2 );
+
+});
