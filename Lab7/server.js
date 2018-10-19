@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static('public'))
 
 // "/Hello" route
-app.post("/hello", function(req, res) {
+app.get("/hello", function(req, res) {
     res.send({"content" : req.query.message})
 })
 
