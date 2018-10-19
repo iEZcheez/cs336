@@ -18,7 +18,7 @@ app.use(express.static('public'))
 
 // "/Hello" route
 app.get("/hello", function(req, res) {
-    res.send({"content" : req.query.message})
+    res.send({"message" : req.query.message})
 })
 
 // Console message

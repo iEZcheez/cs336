@@ -56,7 +56,7 @@
         <counts>
           <entry key="css" value="19" />
           <entry key="html" value="1388" />
-          <entry key="js" value="5860" />
+          <entry key="js" value="5908" />
           <entry key="json" value="7" />
           <entry key="txt" value="484" />
         </counts>
@@ -66,7 +66,7 @@
           <entry key="CSS" value="19" />
           <entry key="HTML" value="1388" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="5860" />
+          <entry key="JavaScript" value="5908" />
           <entry key="PLAIN_TEXT" value="484" />
         </counts>
       </usages-collector>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab7/public/scripts_lab07.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="34" column="104" selection-start-line="34" selection-start-column="104" selection-end-line="34" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -95,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab7/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="119">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/Lab6/public/forms/index.html" />
         <option value="$PROJECT_DIR$/Lab6/server.js" />
         <option value="$PROJECT_DIR$/Homework1/app.js" />
-        <option value="$PROJECT_DIR$/Lab7/public/scripts_lab07.js" />
         <option value="$PROJECT_DIR$/Lab7/public/lab07.html" />
+        <option value="$PROJECT_DIR$/Lab7/public/scripts_lab07.js" />
         <option value="$PROJECT_DIR$/Lab7/server.js" />
       </list>
     </option>
@@ -332,7 +332,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/cs336-code-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -419,12 +419,12 @@
       <workItem from="1539365612048" duration="7000" />
       <workItem from="1539366092203" duration="1349000" />
       <workItem from="1539368172620" duration="132000" />
-      <workItem from="1539962398200" duration="3069000" />
+      <workItem from="1539962398200" duration="4196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41861000" />
+    <option name="totallyTimeSpent" value="42988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,12 +439,12 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.29014307" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.29014307" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.29058442" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49512988" weight="0.32446808" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" visible="true" weight="0.37587413" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4788961" visible="true" weight="0.37587413" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841017" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -652,15 +652,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab7/public/scripts_lab07.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="34" column="104" selection-start-line="34" selection-start-column="104" selection-end-line="34" selection-end-column="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab7/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

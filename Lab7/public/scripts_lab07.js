@@ -1,6 +1,6 @@
 //This code executes when the document is "ready to be worked on"
 $( document ).ready( function() {
-    // Button
+    // Create jQuery style button
     $("button").button()
 
     // Button function
@@ -9,18 +9,14 @@ $( document ).ready( function() {
         //AJAX
         // Using the core $.ajax() method
         $.ajax({
-
             // The URL for the request
             url: "hello",
-
             // The data to send (will be converted to a query string)
             data: {
                 message: "Hello, Lab7!"
             },
-
             // Whether this is a POST or GET request
             type: "GET",
-
             // The type of data we expect back
             dataType: "json",
         })
@@ -36,10 +32,7 @@ $( document ).ready( function() {
             // status codes are passed to the function
             .fail(function (xhr, status, errorThrown) {
                 //Fail message
-                alert("Sorry, there was a problem!");
-                alert("Error: " + errorThrown);
-                alert("Status: " + status);
-                alert(xhr);
+                alert("Sorry, there was a problem! " + "Error: " + errorThrown + " Status: " + status + xhr);
             })
     })
 })
