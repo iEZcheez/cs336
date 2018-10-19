@@ -1,40 +1,19 @@
 <!--Kevin Tran-->
 <!--Lab7-->
 <!--jQuery and AJAX-->
-
 <!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>Demo</title>
     <link rel="stylesheet" href="style.css" />
+    <!--import jQuery-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!--import scripts-->
+    <script src="scripts_lab07_1.js"></script>
 </head>
 <body>
-    <!--import jQuery-->
-    <script src="jquery.js"></script>
-
     <!--Links-->
     <a href="http://jquery.com/">jQuery</a>
-    <a href="http://jquery.com/">jQuery2</a>
-
-    <!--Code-->
-    <script>
-        // apply style to all links
-        $( "a" ).addClass( "test" );
-        // remove style
-        $( "a" ).removeClass( "test" );
-
-        //This code executes when the document is "ready to be worked on"
-        $( document ).ready( function() {
-            //clicking a link causes this function
-            $( "a" ).click( function (){
-                alert("welcome2");
-                //prevent hyperlink from changing pages
-                event.preventDefault()
-                // special effect (slow)
-                $( this ).hide( "slow" );
-            });
-        });
-    </script>
 </body>
 </html>
