@@ -92,16 +92,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab8/comments.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="233">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab8/public/scripts/work.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
@@ -179,8 +179,8 @@
         <option value="$PROJECT_DIR$/Homework2/public/addPerson.html" />
         <option value="$PROJECT_DIR$/Lab8/public/index.html" />
         <option value="$PROJECT_DIR$/Lab8/notes.txt" />
-        <option value="$PROJECT_DIR$/Lab8/comments.json" />
         <option value="$PROJECT_DIR$/Lab8/public/scripts/work.js" />
+        <option value="$PROJECT_DIR$/Lab8/comments.json" />
       </list>
     </option>
   </component>
@@ -362,12 +362,12 @@
       <workItem from="1539368172620" duration="132000" />
       <workItem from="1539962398200" duration="5149000" />
       <workItem from="1540168584047" duration="6823000" />
-      <workItem from="1540229980054" duration="10546000" />
+      <workItem from="1540229980054" duration="11121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61310000" />
+    <option name="totallyTimeSpent" value="61885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,17 +647,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab8/comments.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab8/public/scripts/work.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="118" column="69" selection-start-line="118" selection-start-column="69" selection-end-line="118" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab8/comments.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
