@@ -36,6 +36,7 @@ app.get('/people', (req, res) => {
     res.json(peopleArray);
 });
 
+// ROUTE (POST): Send a form to this route and append to peopleArray
 app.post('/people', (req, res) => {
     var person = {
         id: req.body.id,
@@ -43,15 +44,21 @@ app.post('/people', (req, res) => {
         lastName: req.body.lastName,
         startDate: req.body.startDate
     };
+
+    //TODO: Add a JS function to search if the ID exists, and redirect the
+    //TODO: form to the PUT method
+
     peopleArray.push(person);
-
+    // JSON the peopleArray
     var peopleArrayJSON = JSON.stringify(peopleArray);
-
+    // Write the JSON'd peopleArray to the people.json
     fs.writeFile(peopleFile, peopleArrayJSON, function (err) {
         console.log(err)
     });
+    
+    // Response from the route after finishing the updates
     res.send({
-        'content': 'Added: ' + req.body.firstName + " " + req.body.lastName
+        'content': 'Succesfully added: ' + req.body.firstName + " " + req.body.lastName
     });
 });
 
