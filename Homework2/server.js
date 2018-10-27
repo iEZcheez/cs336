@@ -33,7 +33,7 @@ fs.readFile(peopleFile, function (err, data) {
 
 // ROUTE (GET): Display all people in peopleArray
 app.get('/people', (req, res) => {
-    res.json(peopleArray);
+    res.send(peopleArray);
 });
 
 // ROUTE (POST): Send a form to this route and append to peopleArray
@@ -45,9 +45,14 @@ app.post('/people', (req, res) => {
         startDate: req.body.startDate
     };
 
-    //TODO: Add a JS function to search if the ID exists, and redirect the
-    //TODO: form to the PUT method
+    for (var i = 0; peopleArray.length; i++) {
+        if (peopleArray[i].id == req.body.id) {}
+        res.send({
+            'content': 'ID already exists'
+        });
+    }
 
+    //append peopleArray
     peopleArray.push(person);
     // JSON the peopleArray
     var peopleArrayJSON = JSON.stringify(peopleArray);
@@ -55,7 +60,7 @@ app.post('/people', (req, res) => {
     fs.writeFile(peopleFile, peopleArrayJSON, function (err) {
         console.log(err)
     });
-    
+
     // Response from the route after finishing the updates
     res.send({
         'content': 'Succesfully added: ' + req.body.firstName + " " + req.body.lastName
@@ -132,23 +137,29 @@ app.get('/person/:id/name', (req, res) => {
     }
 });
 
-// ROUTE (GET): Display the number of years given an ID in ":id"
+//ROUTE (GET): Retrieve years in work
 app.get('/person/:id/years', (req, res) => {
-    var response = getYears(req.params.id);
+    console.log(req.params.years);
+    var response = getYears(req.params.id, req.params.years);
     if (response != "404") {
-        res.send(response);
+        res.json(response);
     } else {
         res.sendStatus(404);
     }
 });
 
-// FUNCTION: Return the number of years the person has worked given an ID
+//FUNCTION: Calculate years in work
 function getYears(id) {
-    var today = new Date();
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == id) {
-            var startDate = new Date(peopleArray[i].startDate)
-            var years = (Math.floor((today - startDate) / (1000 * 60 * 60 * 24 * 365)));
+            var today = new Date();
+            var yearStarted = new Date(peopleArray[i].startDate);
+            var years = today.getFullYear() - yearStarted.getFullYear();
+            var m = today.getMonth() - yearStarted.getMonth();
+
+            if (m < 0 || (m === 0 && today.getDate() < yearStarted.getDate())) {
+                years--;
+            }
             return years;
         }
     }
