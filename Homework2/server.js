@@ -21,6 +21,8 @@ app.use(bodyParser.urlencoded({
 // Array containing people used to display /people
 var peopleArray = [];
 
+// Use the imported fs library and read people.json
+// and import it into peopleArray for usage
 fs.readFile(peopleFile, function (err, data) {
     if (err) {
         console.error(err);
@@ -29,6 +31,7 @@ fs.readFile(peopleFile, function (err, data) {
     peopleArray = JSON.parse(data);
 });
 
+// ROUTE (GET): Display all people in peopleArray
 app.get('/people', (req, res) => {
     res.json(peopleArray);
 });
@@ -64,9 +67,8 @@ app.post('/getPerson', (req, res) => {
     }
 });
 
-// NEW GET ID
+// ROUTE (GET): Get the person record of that ID in ":id"
 app.get('/person/:id', (req, res) => {
-
     var response = getPerson(req.params.id);
     if (response != "404") {
         res.send(response);
@@ -75,12 +77,8 @@ app.get('/person/:id', (req, res) => {
     }
 });
 
-// New Delete ID
-
-
-//curl -X DELETE localhost:3000/person/1 -H 'Content-Type: application/json'
-
-
+// ROUTE (DELETE): Remove the person from peopleArray
+// and update people.json
 app.delete('/person/:id', (req, res) => {
     var idToDelete = req.params.id;
 
@@ -95,13 +93,10 @@ app.delete('/person/:id', (req, res) => {
         }
     }
     res.sendStatus(404);
-
 });
 
-//curl -X PUT localhost:3000/person/911911 -d '{"id":"911911","firstName":"testing","lastName":"POSTINCURL_UPDATED","startDate":"0002-12-12"}' -H 'Content-Type: application/json'
-
-
-// PUT / UPDATE 
+// ROUTE (PUT): Update the person in the peopleArray
+// given a request with data using the PUT method and update people.json
 app.put('/person/:id', function (req, res) {
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == req.body.id) {
@@ -119,7 +114,7 @@ app.put('/person/:id', function (req, res) {
 
 });
 
-
+// ROUTE (GET): Display the name of the person given an ID in ":id"
 app.get('/person/:id/name', (req, res) => {
     var request = req.params.id;
     var response = getName(request);
@@ -130,8 +125,7 @@ app.get('/person/:id/name', (req, res) => {
     }
 });
 
-
-
+// ROUTE (GET): Display the number of years given an ID in ":id"
 app.get('/person/:id/years', (req, res) => {
     var response = getYears(req.params.id);
     if (response != "404") {
@@ -141,7 +135,7 @@ app.get('/person/:id/years', (req, res) => {
     }
 });
 
-
+// FUNCTION: Return the number of years the person has worked given an ID
 function getYears(id) {
     var today = new Date();
     for (var i = 0; i < peopleArray.length; i++) {
@@ -154,6 +148,7 @@ function getYears(id) {
     return '404';
 }
 
+// FUNCTION: Get the name of the person in peopleArray given an ID
 function getName(id) {
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == id) {
@@ -163,6 +158,7 @@ function getName(id) {
     return '404';
 }
 
+// FUNCTION: Return the person in the peopleArray given an ID
 function getPerson(id) {
     for (var i = 0; i < peopleArray.length; i++) {
         if (peopleArray[i].id == id) {
@@ -172,16 +168,7 @@ function getPerson(id) {
     return '404';
 }
 
-
-
-
-// NEW: 
-
-
-
-
-
-
+// For a page that contains nothing send an error
 app.all("*", (req, res) => {
     res.sendStatus(404);
 })
