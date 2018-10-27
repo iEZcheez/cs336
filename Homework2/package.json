@@ -1,15 +1,15 @@
 {
-  "name": "myapp",
+  "name": "homework1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "firstAssignment",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Gavin",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.4"
   }
 }
