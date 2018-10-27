@@ -1,4 +1,4 @@
-<!Doctype <!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
     <title>Get Person</title>
@@ -6,20 +6,20 @@
     <script src="jquery.js"></script>
     <script src="script.js"></script>
     <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-        crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Get Person from Database</h1>
-    <br/>
-    <br/>
-    <h3 id="personResult"></h3>
-    <br/>
-    <br/>
-    <form action="/getPerson" method="POST">
-        <label> Enter Person ID: </label><br/>
-        <input id="id" type='text' name='id'><br/>
-        <br/>
-        <input id="get" type="submit" name="submitBttn">
-    </form>
+<!--DIV Widget-->
+<form>
+    <h1>Get Person</h1>
+    Enter ID:
+    <input id="id" type="text" name="id">
+    <input id="get" type="submit">
+</form>
+<div>
+    <div id="personID"></div>
+    <div id="personName"></div>
+    <div id="personStartDate"></div>
+</div>
 </body>
 </html>

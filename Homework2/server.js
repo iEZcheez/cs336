@@ -1,6 +1,5 @@
 var peopleArray = [];
 
-
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -8,16 +7,12 @@ const bodyParser = require("body-parser");
 var fs = require('fs');
 var path = require('path');
 
-
-
 app.use(express.static("public"));
-
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
-
 
 var peopleFile = path.join(__dirname, 'people.json');
 
@@ -28,9 +23,6 @@ fs.readFile(peopleFile, function (err, data) {
     }
     peopleArray = JSON.parse(data);
 });
-
-
-
 
 app.get('/people', (req, res) => {
     res.json(peopleArray);
@@ -54,11 +46,6 @@ app.post('/people', (req, res) => {
         'content': 'Added: ' + req.body.firstName + " " + req.body.lastName
     });
 });
-
-//curl -X POST localhost:3000/people -d '{"id":"911911","firstName":"testing","lastName":"POSTINCURL","startDate":"0002-12-12"}' -H 'Content-Type: application/json'
-
-
-
 
 app.post('/getPerson', (req, res) => {
     var requestedID = req.body.id;

@@ -6,7 +6,7 @@
 // Server configuration
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 4000
 
 //Require body-parser for JSON
 const bodyParser = require('body-parser')
