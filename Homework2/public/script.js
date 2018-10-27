@@ -1,8 +1,8 @@
 $(document).ready(function () {
     // FORM ADD PERSON
     $('#add').submit(function (event) {
-        event.preventDefault();
-        var form = $(this);
+        event.preventDefault()
+        var form = $(this)
         $.ajax({
             type: 'POST',
             url: '/people',
@@ -10,10 +10,10 @@ $(document).ready(function () {
             dataType: 'json',
         }).done(function (resp) {
             var response = resp.content;
-            $("#responseHere").html(response);
+            $("#responseHere").html(response)
         })
             .fail(function (xhr, status, errorThrown) {
-                $("#responseHere").html("ERROR: " + errorThrown);
+                $("#responseHere").html("ERROR: " + errorThrown)
             })
     });
 
@@ -34,7 +34,9 @@ $(document).ready(function () {
                 $("#personStartDate").html('Start Date: ' + person.startDate)
             })
             .fail(function (xhr, status, errorThrown) {
-                $("#personID").html("ERROR: " + errorThrown);
+                $("#personID").html("ERROR: " + errorThrown)
+                $("#personName").html('')
+                $("#personStartDate").html('')
             })
     });
 });

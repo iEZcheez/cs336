@@ -1,18 +1,23 @@
-var peopleArray = [];
-
+// Express configuration
 const express = require('express');
 const app = express();
 const port = 3000;
-const bodyParser = require("body-parser");
+
+// Require file-reading for people.json
 var fs = require('fs');
 var path = require('path');
 
+// Use static files in /public
 app.use(express.static("public"));
 
+// JSON parser import
+const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
+var peopleArray = [];
 
 var peopleFile = path.join(__dirname, 'people.json');
 
