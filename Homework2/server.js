@@ -6,6 +6,7 @@ const port = 3000;
 // Require file-reading for people.json
 var fs = require('fs');
 var path = require('path');
+var peopleFile = path.join(__dirname, 'people.json');
 
 // Use static files in /public
 app.use(express.static("public"));
@@ -17,9 +18,8 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+// Array containing people used to display /people
 var peopleArray = [];
-
-var peopleFile = path.join(__dirname, 'people.json');
 
 fs.readFile(peopleFile, function (err, data) {
     if (err) {
