@@ -36,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="891" />
-          <entry key="js" value="2211" />
+          <entry key="js" value="2242" />
           <entry key="json" value="20" />
         </counts>
       </usages-collector>
@@ -44,7 +44,7 @@
         <counts>
           <entry key="HTML" value="891" />
           <entry key="JSON" value="20" />
-          <entry key="JavaScript" value="2211" />
+          <entry key="JavaScript" value="2242" />
         </counts>
       </usages-collector>
     </session>
@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="145" column="12" lean-forward="true" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+            <state relative-caret-position="221">
+              <caret line="55" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -73,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/people.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="49" selection-start-column="49" selection-end-column="49" />
+              <caret column="228" selection-start-column="228" selection-end-column="228" />
             </state>
           </provider>
         </entry>
@@ -126,10 +126,10 @@
         <option value="$PROJECT_DIR$/public/addPerson_script.js" />
         <option value="$PROJECT_DIR$/public/getPerson_script.js" />
         <option value="$PROJECT_DIR$/public/getPerson.html" />
-        <option value="$PROJECT_DIR$/people.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/script.js" />
         <option value="$PROJECT_DIR$/public/addPerson.html" />
+        <option value="$PROJECT_DIR$/people.json" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
@@ -150,7 +150,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-11" />
     <option name="width" value="980" />
     <option name="height" value="1044" />
@@ -220,15 +220,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540619275327</updated>
-      <workItem from="1540619280625" duration="13379000" />
+      <workItem from="1540619280625" duration="14484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13379000" />
+    <option name="totallyTimeSpent" value="14484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -320,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/people.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -341,10 +334,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/people.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="228" selection-start-column="228" selection-end-column="228" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="145" column="12" lean-forward="true" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+        <state relative-caret-position="221">
+          <caret line="55" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="55" />
         </state>
       </provider>
     </entry>

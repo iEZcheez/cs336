@@ -45,17 +45,18 @@ app.post('/people', (req, res) => {
         startDate: req.body.startDate
     };
 
-    for (var i = 0; peopleArray.length; i++) {
-        if (peopleArray[i].id == req.body.id) {}
-        res.send({
-            'content': 'ID already exists'
-        });
+    for (var i = 0; i < peopleArray.length; i++) {
+        if (peopleArray[i].id == req.body.id) {
+            res.send( {'content': 'ID already exists'} );
+            return;
+        }
     }
-
-    //append peopleArray
+    // append peopleArray
     peopleArray.push(person);
+
     // JSON the peopleArray
     var peopleArrayJSON = JSON.stringify(peopleArray);
+
     // Write the JSON'd peopleArray to the people.json
     fs.writeFile(peopleFile, peopleArrayJSON, function (err) {
         console.log(err)
