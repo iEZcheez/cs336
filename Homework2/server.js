@@ -8,7 +8,7 @@ var fs = require('fs');
 var path = require('path');
 var peopleFile = path.join(__dirname, 'people.json');
 
-// Use static files in /public
+// Use static files in /app
 app.use(express.static("public"));
 
 // JSON parser import
