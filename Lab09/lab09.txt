@@ -39,10 +39,12 @@ c. Check the network log.
 9.3
 Try out both ports and explain the difference between them.
 a. localhost:3001 — Try editing one of the React module files. Explain what happens, both to the displayed SPA webpage and to the bundle/index files.
--
+- The page automatically refreshes and updates to the new .js files
+- The bundle.js file changes as well
 
 b. localhost:3000 — Try loading /api/comments. Explain what you get. Does the SPA page running on this port change (due to the edits made above) as well?
 - It returns the comments.json to me, displaying all of its contents
+-
 
 For more information on this two-server configuration, see Webpack’s HMR & React-Hot-Loader — The Missing Manual.
 c. Is it worth all this trouble to build a development configuration?
