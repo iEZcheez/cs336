@@ -44,7 +44,7 @@ a. localhost:3001 — Try editing one of the React module files. Explain what ha
 
 b. localhost:3000 — Try loading /api/comments. Explain what you get. Does the SPA page running on this port change (due to the edits made above) as well?
 - It returns the comments.json to me, displaying all of its contents
--
+- When I added a comment in the Dev server, the comments.json updated. I'm not sure if this is supposed to happen
 
 For more information on this two-server configuration, see Webpack’s HMR & React-Hot-Loader — The Missing Manual.
 c. Is it worth all this trouble to build a development configuration?
