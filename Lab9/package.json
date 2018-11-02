@@ -30,7 +30,7 @@
   },
   "scripts": {
     "build": "webpack --progress",
-    "dev": "webpack-dev-server --progress",
+    "dev": "node server.js & webpack-dev-server --progress",
     "start": "node server.js"
   }
 }
