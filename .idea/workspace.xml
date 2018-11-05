@@ -15,30 +15,31 @@
     <session id="662325366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.1055" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="1" />
-          <entry key="css" value="5" />
+          <entry key="css" value="7" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="26" />
-          <entry key="js" value="71" />
-          <entry key="json" value="23" />
+          <entry key="html" value="27" />
+          <entry key="js" value="73" />
+          <entry key="json" value="26" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
           <entry key="txt" value="7" />
@@ -47,10 +48,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="26" />
-          <entry key="JSON" value="24" />
-          <entry key="JavaScript" value="71" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="27" />
+          <entry key="JSON" value="27" />
+          <entry key="JavaScript" value="73" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
@@ -61,7 +62,7 @@
           <entry key="babelrc" value="11" />
           <entry key="css" value="19" />
           <entry key="html" value="1683" />
-          <entry key="js" value="11387" />
+          <entry key="js" value="11389" />
           <entry key="json" value="160" />
           <entry key="txt" value="2033" />
         </counts>
@@ -71,7 +72,7 @@
           <entry key="CSS" value="19" />
           <entry key="HTML" value="1683" />
           <entry key="JSON" value="171" />
-          <entry key="JavaScript" value="11387" />
+          <entry key="JavaScript" value="11389" />
           <entry key="PLAIN_TEXT" value="2033" />
         </counts>
       </usages-collector>
@@ -79,98 +80,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab9/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab09/lab09.txt">
+        <entry file="file://$PROJECT_DIR$/Lab9/app/css/postcss.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="45" column="68" lean-forward="true" selection-end-line="52" selection-end-column="35" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/package.json">
+        <entry file="file://$PROJECT_DIR$/Lab8/public/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="986">
+              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/webpack.config.js">
+        <entry file="file://$PROJECT_DIR$/Lab8/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/app/index.tmpl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Lab8/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Lab9/app/css/base.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentList.js">
+        <entry file="file://$PROJECT_DIR$/Lab9/app/scripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#35#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/Comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/comments.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab09/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -204,10 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lab3/Lab2.js" />
-        <option value="$PROJECT_DIR$/Lab3/Lab3.js" />
-        <option value="$PROJECT_DIR$/Class Notes/kvcode.js" />
-        <option value="$PROJECT_DIR$/Class Notes/Promise.js" />
         <option value="$PROJECT_DIR$/Class Notes/Notes.js" />
         <option value="$PROJECT_DIR$/Class Notes/WebServer.js" />
         <option value="$PROJECT_DIR$/lab05/public/package.json" />
@@ -237,7 +193,6 @@
         <option value="$PROJECT_DIR$/Homework2/public/form_add_button.js" />
         <option value="$PROJECT_DIR$/Homework2/app.js" />
         <option value="$PROJECT_DIR$/Homework2/public/addPerson.html" />
-        <option value="$PROJECT_DIR$/Lab8/public/index.html" />
         <option value="$PROJECT_DIR$/Lab8/notes.txt" />
         <option value="$PROJECT_DIR$/Lab8/public/scripts/work.js" />
         <option value="$PROJECT_DIR$/Lab8/comments.json" />
@@ -255,6 +210,11 @@
         <option value="$PROJECT_DIR$/Lab09/package.json" />
         <option value="$PROJECT_DIR$/Lab09/app/scripts/CommentForm.js" />
         <option value="$PROJECT_DIR$/Lab09/lab09.txt" />
+        <option value="$PROJECT_DIR$/Lab8/public/css/base.css" />
+        <option value="$PROJECT_DIR$/Lab8/public/index.html" />
+        <option value="$PROJECT_DIR$/Lab9/package.json" />
+        <option value="$PROJECT_DIR$/Lab9/app/scripts/index.js" />
+        <option value="$PROJECT_DIR$/Lab9/app/css/postcss.config.js" />
       </list>
     </option>
   </component>
@@ -267,26 +227,27 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Homework1/node_modules" />
     <handled-path value="$PROJECT_DIR$/Homework2/node_modules" />
-    <handled-path value="$PROJECT_DIR$/Lab09/node_modules" />
     <handled-path value="$PROJECT_DIR$/Lab3/node_modules" />
     <handled-path value="$PROJECT_DIR$/Lab7/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Lab8/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Lab9/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/Homework1/package.json" />
       <path value="$PROJECT_DIR$/Homework2/package.json" />
-      <path value="$PROJECT_DIR$/Lab09/package.json" />
       <path value="$PROJECT_DIR$/Lab3/package.json" />
       <path value="$PROJECT_DIR$/Lab4/package.json" />
       <path value="$PROJECT_DIR$/Lab5/package.json" />
       <path value="$PROJECT_DIR$/Lab6/package.json" />
       <path value="$PROJECT_DIR$/Lab7/package.json" />
       <path value="$PROJECT_DIR$/Lab8/package.json" />
+      <path value="$PROJECT_DIR$/Lab9/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="width" value="1344" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -295,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,32 +267,43 @@
             <path>
               <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab09" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab09" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab8" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs336" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab8" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs336" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs336" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab9" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab09" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab9" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab09" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,17 +315,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09\app\scripts" />
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab5\Public" />
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\lab05\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab9\app" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09\dist" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab8" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336" />
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab6" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab9\app\css" />
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09\app\scripts" />
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab5\Public" />
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\lab05\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,15 +341,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Lab09">
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Lab8">
       <method v="2" />
     </configuration>
-    <configuration name="webpack.config.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="webpack.config.js" working-dir="$PROJECT_DIR$/Lab09">
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Lab9">
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Lab09/package.json" />
+    <configuration name="build (1)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Lab9/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
@@ -384,8 +358,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Lab09/package.json" />
+    <configuration name="dev (1)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Lab9/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -406,18 +380,18 @@
     </configuration>
     <list>
       <item itemvalue="npm.start" />
-      <item itemvalue="npm.build" />
-      <item itemvalue="Node.js.webpack.config.js" />
+      <item itemvalue="npm.dev (1)" />
+      <item itemvalue="Node.js.server.js (1)" />
+      <item itemvalue="npm.build (1)" />
       <item itemvalue="Node.js.server.js" />
-      <item itemvalue="npm.dev" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build" />
         <item itemvalue="Node.js.server.js" />
-        <item itemvalue="Node.js.webpack.config.js" />
+        <item itemvalue="npm.build (1)" />
+        <item itemvalue="Node.js.server.js (1)" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -452,11 +426,13 @@
       <workItem from="1541007238981" duration="3600000" />
       <workItem from="1541011979494" duration="6671000" />
       <workItem from="1541123196529" duration="3876000" />
+      <workItem from="1541172124477" duration="144000" />
+      <workItem from="1541372668903" duration="1830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76032000" />
+    <option name="totallyTimeSpent" value="78006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,14 +444,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-8" y="0" width="896" height="696" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.22972973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.33643773" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.29058442" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49512988" weight="0.32342657" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" weight="0.27972028" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" weight="0.28368795" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841017" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,29 +472,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="1008" column="14" selection-start-line="1008" selection-start-column="14" selection-end-line="1008" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework1retry/package.json" />
-    <entry file="file://$PROJECT_DIR$/Lab3/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework1retry/app.js" />
-    <entry file="file://$PROJECT_DIR$/Lab4/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class Notes/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -631,7 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab8/public/css/base.css" />
     <entry file="file://$PROJECT_DIR$/Lab8/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -661,116 +613,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab8/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09/.babelrc" />
     <entry file="file://$PROJECT_DIR$/Lab09/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/Lab09/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/Lab09/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lab09/dist/bundle.js" />
+    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentBox.js" />
+    <entry file="file://$PROJECT_DIR$/Lab09/README.md" />
+    <entry file="file://$PROJECT_DIR$/Lab09/lab09.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab09/package.json" />
+    <entry file="file://$PROJECT_DIR$/Lab09/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/Lab09/app/index.tmpl.html" />
+    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentForm.js" />
+    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentList.js" />
+    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/Comment.js" />
+    <entry file="file://$PROJECT_DIR$/Lab09/comments.json" />
+    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/index.js" />
+    <entry file="file://$PROJECT_DIR$/Lab09/server.js" />
+    <entry file="file://$PROJECT_DIR$/Lab8/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab8/public/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab8/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/dist/bundle.js">
+    <entry file="file://$PROJECT_DIR$/Lab9/app/css/base.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentBox.js">
+    <entry file="file://$PROJECT_DIR$/Lab9/app/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-          <folding>
-            <element signature="e#295#321#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/index.js">
+    <entry file="file://$PROJECT_DIR$/Lab9/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/server.js">
+    <entry file="file://$PROJECT_DIR$/Lab9/app/css/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#35#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/Comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/app/index.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/comments.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/lab09.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="45" column="68" lean-forward="true" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

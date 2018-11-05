@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentBox from './CommentBox'
-import Remarkable from 'remarkable';
-import $ from 'jquery';
+
+import '../css/base.css';
 
 // PART FINAL: RENDER
 // React components implement a render() method that
