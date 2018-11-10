@@ -1,0 +1,24 @@
+Compare and contrast MongoDB and the SQL databases you’ve used before. Are there things that one can do that the other can’t?
+- Mongo has object oriented data while SQL has data that can be parsed
+- SQL can do join on data
+- Mongo can use JSON data
+
+You could run MongoDB locally. What advantages and/or disadvantages would that bring with respect to the cloud database you have now?
+- Cloud databases could die
+- Local databases are stored permanantly on one machine but it depends on how you use the database
+
+You’ve built a “sandbox” database on mLab. Could you use this for a production database? Why or why not?
+- It is a sandbox and the website says that it should be used for experimentation
+- It is not for professional use
+
+When everything is running again, consider the following questions.
+
+For this integration of mLab into your application, was it better to run the modified server (npm start) or the full Webpack development environment (npm run dev)? Why?
+- The webpack appears to use less data in the network which is good
+
+Explain what happens when you modify the database using mLab’s web interface rather than your application? Try adding/updating/deleting comment documents.
+- The information updates in the client side as well
+
+Is this comments application the sort of application that should use an SQL or a noSQL database? Explain your answer.
+- The app simply displays comments and the data do not really have relationships
+- MongoDB is NoSQL which is good for that purpose and it is also faster than SQL
