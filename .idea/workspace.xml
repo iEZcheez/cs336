@@ -15,7 +15,7 @@
     <session id="662325366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="4" />
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab10/lab10.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+            <state relative-caret-position="391">
+              <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -412,12 +412,12 @@
       <workItem from="1541446560218" duration="1148000" />
       <workItem from="1541525935191" duration="2696000" />
       <workItem from="1541617068697" duration="3001000" />
-      <workItem from="1541810759162" duration="4213000" />
+      <workItem from="1541810759162" duration="4406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89678000" />
+    <option name="totallyTimeSpent" value="89871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,14 +430,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.19316375" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.29058442" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49512988" weight="0.32342657" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4788961" visible="true" weight="0.28496504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" weight="0.28496504" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841017" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -683,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab10/lab10.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+        <state relative-caret-position="391">
+          <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
         </state>
       </provider>
     </entry>
