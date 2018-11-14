@@ -21,8 +21,8 @@ module.exports = {
             { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader" },
             { test: /\.css$/,  loader: 'style!css?modules!postcss' }
         ]
-    postcss: [
-        require('autoprefixer')
+        postcss: [
+            require('autoprefixer')
     },
     // Use the template html file in /app
     // This plugin instructs Webpack to inflate the template with an import of the bundle..
@@ -38,19 +38,10 @@ module.exports = {
         // automatically. The devserver specification runs the server on port 3001 and diverts all data API request through to
         // server.js, which is assumed to be running on port 3000. See Webpack Development Server.
         new HtmlWebpackPlugin({template: __dirname + "/app/index.tmpl.html"})
-        new webpack.HotModuleReplacementPlugin()
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin(),
         new ExtractTextPlugin("[name]-[hash].css")
-    ],
-    devServer: {
-        port: 3001,
-        proxy: { '/api/*': 'http://localhost:3000' },
-        colors: true,
-        historyApiFallback: true,
-        inline: true,
-        hot: true
-    }
+    ]
 };
 
 //     This specifies the application’s source code modules (i.e., entry),
