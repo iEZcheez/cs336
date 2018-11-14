@@ -38,7 +38,6 @@ module.exports = {
         // automatically. The devserver specification runs the server on port 3001 and diverts all data API request through to
         // server.js, which is assumed to be running on port 3000. See Webpack Development Server.
         new HtmlWebpackPlugin({template: __dirname + "/app/index.tmpl.html"})
-        new webpack.HotModuleReplacementPlugin()
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin(),
         new ExtractTextPlugin("[name]-[hash].css")
