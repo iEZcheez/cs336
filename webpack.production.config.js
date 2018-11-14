@@ -41,15 +41,7 @@ module.exports = {
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin(),
         new ExtractTextPlugin("[name]-[hash].css")
-    ],
-    devServer: {
-        port: 3001,
-        proxy: { '/api/*': 'http://localhost:3000' },
-        colors: true,
-        historyApiFallback: true,
-        inline: true,
-        hot: true
-    }
+    ]
 };
 
 //     This specifies the application’s source code modules (i.e., entry),
