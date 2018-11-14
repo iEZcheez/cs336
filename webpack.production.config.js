@@ -5,7 +5,7 @@
 
 // exercise 9.3
 var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -22,13 +22,13 @@ module.exports = {
             { test: /\.css$/,  loader: 'style!css?modules!postcss' }
         ]
     },
-    postcss: [
+ postcss: [
         require('autoprefixer')
     ],
     // Use the template html file in /app
     // This plugin instructs Webpack to inflate the template with an import of the bundle..
     // ..it creates and to load the result in the output directory, dist/.
-    plugins: [
+      plugins: [
         new webpack.DefinePlugin({
             'process.env':{
                 'NODE_ENV': JSON.stringify('production')
