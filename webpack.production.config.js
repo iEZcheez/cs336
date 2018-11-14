@@ -23,6 +23,7 @@ module.exports = {
         ]
     postcss: [
         require('autoprefixer')
+        ]
     },
     // Use the template html file in /app
     // This plugin instructs Webpack to inflate the template with an import of the bundle..
