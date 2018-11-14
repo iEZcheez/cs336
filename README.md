@@ -1,3 +1,6 @@
+Creating app... done, ⬢ aqueous-eyrie-40876
+https://aqueous-eyrie-40876.herokuapp.com/ | https://git.heroku.com/aqueous-eyrie-40876.git
+___
 This sample code supports Calvin College
 [CS 336](https://cs.calvin.edu/courses/cs/336/kvlinden)
 [Unit 8: React](https://cs.calvin.edu/courses/cs/336/kvlinden/08react/index.html).
