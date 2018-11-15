@@ -21,9 +21,10 @@ module.exports = {
             { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader" },
             { test: /\.css$/,  loader: 'style!css?modules!postcss' }
         ]
-        postcss: [
-            require('autoprefixer')
     },
+    postcss: [
+        require('autoprefixer')
+    ],
     // Use the template html file in /app
     // This plugin instructs Webpack to inflate the template with an import of the bundle..
     // ..it creates and to load the result in the output directory, dist/.
@@ -37,7 +38,7 @@ module.exports = {
         // This new plugin instructs Webpack to rebundle the application when source files are edited and refresh the browser
         // automatically. The devserver specification runs the server on port 3001 and diverts all data API request through to
         // server.js, which is assumed to be running on port 3000. See Webpack Development Server.
-        new HtmlWebpackPlugin({template: __dirname + "/app/index.tmpl.html"})
+        new HtmlWebpackPlugin({template: __dirname + "/app/index.tmpl.html"}),
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin(),
         new ExtractTextPlugin("[name]-[hash].css")
