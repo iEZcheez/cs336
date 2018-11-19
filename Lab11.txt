@@ -1,0 +1,18 @@
+Compare and contrast your development and production deployments and explain how each is designed.
+Development is the testing and building of the application. We locally built our application in this stage and have not uploaded it anywhere.
+Production is when the application is ready to be published for use. In this stage, we used Heroku to upload our application so that other people on the internet can access it.
+
+List the optimizations you’ve configured for this production version and, if possible, find evidence of then in the deployed application files.
+Thee following were added in this lab:
+OccurenceOrder
+Uglify
+ExtractText
+
+What advantage is there is deploying an application to a PaaS tool like Heroku?
+Heroku is accessible and manages the commits from your GitHub (if you use GitHub).
+However, you cannot really change Heroku's "firewall, hardware, and OS."
+
+How does Heroku know how to install and run your application (after pulling it from the specified branch on GitHub)?
+Include the URL of your deployed Heroku service here.
+Heroku supports many languages. I believe Heroku asks the user to specify the type of project they are uploading. 
+https://aqueous-eyrie-40876.herokuapp.com/
