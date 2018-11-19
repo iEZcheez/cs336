@@ -3,7 +3,7 @@ Development is the testing and building of the application. We locally built our
 Production is when the application is ready to be published for use. In this stage, we used Heroku to upload our application so that other people on the internet can access it.
 
 List the optimizations you’ve configured for this production version and, if possible, find evidence of then in the deployed application files.
-Thee following were added in this lab:
+The following were added in this lab:
 OccurenceOrder
 Uglify
 ExtractText
