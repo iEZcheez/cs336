@@ -25,8 +25,13 @@ var db;
 var password = process.env.MONGO_PASSWORD;
 var mongo_connection = "mongodb://cs336:" + password + "@ds249583.mlab.com:49583/cs336";
 
+// Lab13
+var APP_PATH = path.join(__dirname, 'dist');
+
+//Lab13
+app.use('/', express.static(APP_PATH));
+
 //LAB 09 -- We are now using /dist for our static files and JSON parser
-app.use('/', express.static(path.join(__dirname, 'dist')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -56,6 +61,9 @@ app.post('/api/comments', function(req, res) {
         text: req.body.text
     })
 });
+
+// Lab13
+app.use('*', express.static(APP_PATH));
 
 // Lab 10 Create MongoDB connection and start the server after the DB connection
 MongoClient.connect(mongo_connection, function (err, client) {
