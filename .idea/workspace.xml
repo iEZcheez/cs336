@@ -230,11 +230,6 @@
               <item name="cs336" type="462c0819:PsiDirectoryNode" />
               <item name="Lab13" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -385,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123595000" />
+    <option name="totallyTimeSpent" value="123796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
