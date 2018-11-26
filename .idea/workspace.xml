@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc789171-2314-4ade-8a63-4c7e7db6c809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework3/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/app/css/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/app/index.tmpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/app/scripts/Comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/app/scripts/CommentBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/app/scripts/CommentForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/app/scripts/CommentList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/app/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/lab10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/comments.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/lab8_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3/app/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/public/scripts/work.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3/server.js" beforeDir="false" />
-    </list>
+    <list default="true" id="fc789171-2314-4ade-8a63-4c7e7db6c809" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -105,82 +83,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework3/app/scripts/CommentBox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#295#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework3/app/scripts/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework3/app/scripts/Comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#310#336#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homework3/app/scripts/CommentForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework3/app/scripts/CommentList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework3/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework3/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -301,6 +204,7 @@
       <path value="$PROJECT_DIR$/Lab09/package.json" />
       <path value="$PROJECT_DIR$/Lab10/package.json" />
       <path value="$PROJECT_DIR$/Lab11/package.json" />
+      <path value="$PROJECT_DIR$/Lab13/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -324,42 +228,12 @@
             <path>
               <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework2" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs336" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab11" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,18 +252,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab9\app\css" />
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09\app\scripts" />
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab5\Public" />
+      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\lab05\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Homework3" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab11" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab9\app" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09\dist" />
       <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab9\app\css" />
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab09\app\scripts" />
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\Lab5\Public" />
-      <recent name="C:\Users\EZcheez\Documents\GitHub\cs336\lab05\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -511,7 +385,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123342000" />
+    <option name="totallyTimeSpent" value="123595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,15 +397,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="654" height="696" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.24324325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.49594814" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.29058442" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49512988" weight="0.32342657" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4788961" visible="true" weight="0.28496504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" visible="true" weight="0.28496504" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841017" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,6 +417,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.49594814" />
+      <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.29058442" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49512988" weight="0.32269505" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" weight="0.28496504" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841017" weight="0.3986014" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49920508" weight="0.32867134" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48330683" visible="true" weight="0.3173759" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5166932" side_tool="true" weight="0.31643358" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -599,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,13 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework3/public/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework3/public/css/base.css" />
     <entry file="file://$PROJECT_DIR$/Lab08/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -702,10 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#310#336#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,10 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#295#321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
