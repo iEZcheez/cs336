@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc789171-2314-4ade-8a63-4c7e7db6c809" name="Default Changelist" comment="" />
+    <list default="true" id="fc789171-2314-4ade-8a63-4c7e7db6c809" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab13/app/scripts/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/app/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/app/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab13/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lab13/server.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,8 +49,8 @@
           <entry key="css" value="8" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="27" />
-          <entry key="js" value="97" />
-          <entry key="json" value="46" />
+          <entry key="js" value="100" />
+          <entry key="json" value="49" />
           <entry key="md" value="2" />
           <entry key="ts" value="1" />
           <entry key="txt" value="8" />
@@ -54,8 +61,8 @@
         <counts>
           <entry key="CSS" value="8" />
           <entry key="HTML" value="27" />
-          <entry key="JSON" value="47" />
-          <entry key="JavaScript" value="97" />
+          <entry key="JSON" value="50" />
+          <entry key="JavaScript" value="100" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
@@ -66,7 +73,7 @@
           <entry key="babelrc" value="11" />
           <entry key="css" value="19" />
           <entry key="html" value="1683" />
-          <entry key="js" value="16588" />
+          <entry key="js" value="16788" />
           <entry key="json" value="206" />
           <entry key="txt" value="2968" />
         </counts>
@@ -76,14 +83,50 @@
           <entry key="CSS" value="19" />
           <entry key="HTML" value="1683" />
           <entry key="JSON" value="217" />
-          <entry key="JavaScript" value="16588" />
+          <entry key="JavaScript" value="16788" />
           <entry key="PLAIN_TEXT" value="2968" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab13/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab13/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab13/app/scripts/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab13/app/scripts/global.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,10 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lab6/public/index.html" />
-        <option value="$PROJECT_DIR$/Lab6/public/forms/index.html" />
-        <option value="$PROJECT_DIR$/Lab6/server.js" />
-        <option value="$PROJECT_DIR$/Lab7/public/lab07.html" />
         <option value="$PROJECT_DIR$/Lab7/public/scripts_lab07.js" />
         <option value="$PROJECT_DIR$/Lab7/server.js" />
         <option value="$PROJECT_DIR$/Homework2/public/removePerson.html" />
@@ -170,6 +209,10 @@
         <option value="$PROJECT_DIR$/Homework3/app/scripts/CommentBox.js" />
         <option value="$PROJECT_DIR$/Homework3/server.js" />
         <option value="$PROJECT_DIR$/Homework3/app/scripts/CommentForm.js" />
+        <option value="$PROJECT_DIR$/Lab13/package.json" />
+        <option value="$PROJECT_DIR$/Lab13/package-lock.json" />
+        <option value="$PROJECT_DIR$/Lab13/server.js" />
+        <option value="$PROJECT_DIR$/Lab13/app/scripts/index.js" />
       </list>
     </option>
   </component>
@@ -189,6 +232,7 @@
     <handled-path value="$PROJECT_DIR$/Lab09/node_modules" />
     <handled-path value="$PROJECT_DIR$/Lab10/node_modules" />
     <handled-path value="$PROJECT_DIR$/Lab11/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Lab13/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -207,9 +251,9 @@
       <path value="$PROJECT_DIR$/Lab13/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
-    <option name="width" value="981" />
+    <option name="width" value="1053" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -229,6 +273,19 @@
               <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs336" type="462c0819:PsiDirectoryNode" />
               <item name="Lab13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs336" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs336" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs336" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab13" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,7 +437,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123796000" />
+    <option name="totallyTimeSpent" value="125077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,21 +449,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="654" height="696" extended-state="0" />
+    <frame x="-8" y="0" width="702" height="696" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.49594814" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.46015036" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.29058442" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49512988" weight="0.32342657" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" visible="true" weight="0.28496504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4788961" weight="0.28496504" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841017" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49920508" weight="0.32867134" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48330683" weight="0.3181818" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.48330683" visible="true" weight="0.3173759" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5166932" side_tool="true" weight="0.31643358" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -439,13 +496,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab8/comments.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/Lab09/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/Lab09/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/Lab09/dist/bundle.js" />
     <entry file="file://$PROJECT_DIR$/Lab09/app/scripts/CommentBox.js" />
     <entry file="file://$PROJECT_DIR$/Lab09/README.md" />
@@ -617,6 +667,40 @@
           <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab13/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab13/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab13/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab13/app/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab13/app/scripts/global.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
