@@ -1,31 +1,22 @@
-//PART 4: COMMENT ELEMENT
-//These 'properties' are accessed through this.props.
-//Using props, we will be able to read the data passed to the Comment
-//from the CommentList, and render some markup:
+import React from 'react';
+import Remarkable from 'remarkable';
+import {Link} from 'react-router';
 
-//REMARKABLE LIBRARY:
-//third-party library remarkable which takes
-//Markdown text and converts it to raw HTML
-import React from "react";
-import Remarkable from "remarkable";
-
-var Comment = React.createClass({
-    rawMarkup: function() {
-        var md = new Remarkable();
+module.exports = React.createClass({
+    rawMarkup: function () {
+        var md = new Remarkable({html: true});
         var rawMarkup = md.render(this.props.children.toString());
-        return { __html: rawMarkup };
+        return {__html: rawMarkup};
     },
-
-    render: function() {
+    render: function () {
         return (
             <div className="comment">
                 <h2 className="commentAuthor">
                     {this.props.author}
                 </h2>
-                <span dangerouslySetInnerHTML={this.rawMarkup()} />
+                <span dangerouslySetInnerHTML={this.rawMarkup()}/>
+                <Link to={'/' + this.props.id}>Edit</Link>
             </div>
         );
     }
 });
-
-export default Comment;
